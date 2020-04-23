@@ -24,7 +24,7 @@ Host virtual api-rest-laravel.com.devel a esta direccion el front hara las petic
 Debe terner instalado el manejador de depentedencias composer 1.9.0 o superior
 Luego de clonar el repositorio cambiar nombre del archivo .env.example a .env y modificar los parametros de conexión de su base de datos
 
-Consultar el archivo modelo_relacionl.png para crear la creacion de las tablas necesarias para el proyecto
+Consultar el archivo diagrama_relacionl.png para crear la creacion de las tablas necesarias para el proyecto
 
 ## Construido con 🛠️
 
