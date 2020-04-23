@@ -1,32 +1,37 @@
 # Proyecto Complemento 360
 
 
-Proyecto realizado en Laravel llamado Complemento 360.
-Es un proyecto para consumir un web service de gestión documental
+Proyecto realizado para consumir un Web service de gestión documental. El back esta desarrollado con laravel a modo de api y el front esta hecho con bootstrap 4 
 
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
 ### Pre-requisitos 📋
 
 
 ```
-Debe contar con la versión más reciente de Laravel 5.7 o posterior
+Apache 2.4 o superior
+Mysql 5.7 o superior o MariaDB 10.3.14 o superior
+PHP 7.2.18
+Contar con la version de laravel 5.7 o superior 
+Host virtual api-rest-laravel.com.devel a esta direccion el front hara las peticiones HTTP
+
+
 ```
 
 ## Despliegue 📦
 
-Debe contar con un sistema Xampp más reciente como la versión 7.4 o posterior
-y tener instalado el gestor de librerias Composer.
+Debe terner instalado el manejador de depentedencias composer 1.9.0 o superior
+Luego de clonar el repositorio cambiar nombre del archivo .env.example a .env y modificar los parametros de conexión de su base de datos
+
+Consultar el archivo modelo_relacionl.png para crear la creacion de las tablas necesarias para el proyecto
 
 ## Construido con 🛠️
 
-* [LARAVEL](https://laravel.com/) - El framework web usado
-* [COMPOSER](https://getcomposer.org/) - Manejador de dependencias
+* [LARAVEL 5.7](https://laravel.com/docs/5.7)
+* [COMPOSER 1.9.0](https://getcomposer.org/)
+* [BOOTSTRAP](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* [JQUERY](https://code.jquery.com/jquery/)
 
 
 ## Versionado 📌
@@ -34,11 +39,8 @@ y tener instalado el gestor de librerias Composer.
 (https://github.com/alextremo29/complemento_360).
 
 ## Autores ✒️
-
-
-
 * **Alexander Narvaez Forero** - *Trabajo Inicial* 
-* **Leonardo Hernández** - *Documentación* 
+
 
 
 
